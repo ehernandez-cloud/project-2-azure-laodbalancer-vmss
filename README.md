@@ -1,4 +1,4 @@
-# Project 2 — Azure Load Balancer + VM Scale Set + Autoscaling
+ # Project 2 — Azure Load Balancer + VM Scale Set + Autoscaling
 
 This project demonstrates a highly available web application deployed on Azure using a **Virtual Machine Scale Set (VMSS)** behind a **Load Balancer (LB)**. The solution automatically scales based on CPU usage and distributes traffic evenly across instances.
 
@@ -42,13 +42,16 @@ This project demonstrates a highly available web application deployed on Azure u
 ## 🖼 Screenshots
 
 ### **1. Virtual Network & Subnet**
-![Subnet Web](Screenshots/Subnet-Web.png)
+
 ![VNet LB](Screenshots/Vnet-LB.png)
+![Subnet Web](Screenshots/Subnet-Web.png)
+
 
 ---
 
 ### **2. Load Balancer Configuration**
 **Frontend IP**
+
 ![LB Frontend IP](Screenshots/LB-IP-Frontend.png)
 
 **Health Probe**
@@ -61,6 +64,7 @@ This project demonstrates a highly available web application deployed on Azure u
 
 ### **3. VM Scale Set Deployment**
 **Resource Group overview**
+
 ![RG LB ScaleSet](Screenshots/RG-LB-ScaleSet.png)
 
 **VMSS deployed**
@@ -73,19 +77,23 @@ This project demonstrates a highly available web application deployed on Azure u
 
 ### **4. Scaling**
 **After setting instance count to 2**
+
 ![2 Instances](Screenshots/VMSS-2-Instances.png)
 
 **Backend pool showing 2 healthy instances**
+
 ![Backend Pool](Screenshots/Backend-pool-2-instances.png)
 
 ---
 
 ### **5. Autoscaling Configuration**
+
 ![Autoscale Overview](Screenshots/VMSS-Autoscale-Overview.png)
 
 ---
 
 ### **6. Testing the Web Page**
+
 ![Browser Test](Screenshots/LB-Web-Browser.png)
 
 ---
